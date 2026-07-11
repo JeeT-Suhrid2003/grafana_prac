@@ -5,7 +5,8 @@ echo "========================================="
 echo "💥 STEP 1: Cleaning up old installations..."
 echo "========================================="
 kuebctl create deployment observer --image jeet23/observer
-kubectl apply -f 
+kubectl apply -f https://raw.githubusercontent.com/JeeT-Suhrid2003/grafana_prac/refs/heads/main/service.yml
+sleep 3
 helm repo add grafana https://grafana.github.io/helm-charts
 helm repo update   
 
