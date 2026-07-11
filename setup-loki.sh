@@ -36,6 +36,7 @@ echo "========================================="
 echo "🔑 STEP 4: Retrieval and Status Report"
 echo "========================================="
 echo ""
+sleep 5
 echo "--- POD STATUS ---"
 kubectl get pods -n monitoring
 
